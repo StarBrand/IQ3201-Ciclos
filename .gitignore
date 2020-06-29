@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Not to share
+Auxiliares/
+Calendario_modificado_Oto_o_2020.pdf
+Cátedras/
+IQ3201_Resumen.pdf
+Lecturas semanales/
+Matplotlib/
+Programa.pdf
+Tabla_de_Factores_de_conversion_y_Constantes_fisicas.pdf
+Tablas_compresibilidad.pdf
+Tablas_de_Datos_Termodin_micos.pdf
+Tareas/
