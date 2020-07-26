@@ -1,4 +1,4 @@
-"""diagrama_ts.py: Method to generate a TS Diagram"""
+"""diagrama_ph.py: Method to generate a Ph Diagram"""
 
 import numpy as np
 from matplotlib.axes import Axes
@@ -6,14 +6,14 @@ from matplotlib.figure import Figure
 from utils import diagram
 
 
-def diagrama_ts(S: [np.ndarray] or [list], T: [np.ndarray] or [list], title: str, hide_values: bool) -> (Figure, Axes):
+def diagrama_ph(h: [np.ndarray] or [list], P: [np.ndarray] or [list], title: str, hide_values: bool) -> (Figure, Axes):
     """
     Does a diagram, returning the Axes object
 
-    :param S: List of four entropy curves
-    :param T: List of four temperature curves
+    :param h: List of four entalpy curves
+    :param P: List of four pressure curves
     :param title: Title of graph
     :param hide_values: Whether or not hide values on ticks
     :return: Figure and Axes with cycle plotted
     """
-    return diagram(S, T, title, "TS", hide_values)
+    return diagram(h, P, title, "Ph", hide_values)

@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 PATH = os.path.dirname(os.path.abspath(__file__))
-TABLES = os.path.join(PATH, os.pardir, "Tablas")
+TABLES = os.path.join(PATH, os.pardir, "tables")
 SATURATED_VALUES = pd.read_csv(os.path.join(TABLES, "agua_saturada_temperatura.csv"))
 
 
